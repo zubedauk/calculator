@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+    
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right,#045B5D,#022223);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.calc{
+    width:14.7rem;
+    height:27rem;
+    background-color:#212222;
+    box-shadow:  0 0 1rem  #00F7FF;
+    border-radius: 1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title{
+    color: #DD4518;
+    font-size:1.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+
+    margin-top:0.5rem;
+}
+.display{
+    width:100%;
+    height:6rem;
+    margin-top:0.5rem;
+    background-color:#343434;
+    
+}
+.btn-container{
+    margin-top:0.7rem;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(4,2.7rem);
+    grid-column-gap:0.4rem;
+    grid-row-gap:0.4rem;
+}
+
+
+.btn-normal{
+    border:0;
+    outline: 0;
+    text-align: center;
+   border-radius: 0.5rem;
+   background-color:#343434;
+   color:white;
+   height:3.1rem;
+   color:white;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 200;
+   font-size: 1.5rem;
+}
+
+.btn-equal{
+    grid-row-end: span 2;
+    height: 6.8rem;
+    background-image: linear-gradient(to bottom,#00F7FF,#022223);
+    
+}
+.forward{
+    width:1.5rem;
+    height: 17rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    
+  }
+.btn-green{
+    background-color: #045B5D;
+    color:#00F7FF;
+}
+.click-extend-flex-java{
+    background-color:#045B5D;
+    width: 9rem;
+    height: 17rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.click-extend-flex{
+    display: none;
+    background-color: #045B5D;;
+}
+
+.click-extend-grid{
+    background-color: #045B5D;;
+    width:6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap:0.4rem;
+    grid-row-gap:0.4rem; 
+}
+.btn-small{
+    height: 2.4rem;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0.5rem;
+    border: 0;
+    outline: 0;
+    background-color: #022223;
+    font-size: 1.2rem;
+    color: white;
+}
+.log{
+    grid-column-end: span 2;
+}
+.return{
+    background-color: #045B5D;
+    color: #00F7FF;
+    border: 0;
+    outline: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: lighter;
+    
+    width: 2rem;
+}
